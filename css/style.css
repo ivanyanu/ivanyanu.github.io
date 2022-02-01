@@ -9,6 +9,7 @@
     list-style: none;
 }
 body{
+    margin: 10px;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 0.10fr 0.75fr 0.15fr ;
