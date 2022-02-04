@@ -8,41 +8,15 @@
     text-decoration: none;
     list-style: none;
 }
-body{
-    margin: 10px;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 0.10fr 0.75fr 0.15fr ;
-}
-header nav{
-    height: 70px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-header nav ul{
-    display: flex;
-    justify-content: space-between;
-}
-header nav ul li{
-    width: 120px;
-    height: 25px;
-    border: 1px solid black;
-}
-header nav a{
-    width: 20%;
-    height: 100%;
-}
-.banner{
-    width: 100%;
-}
-.brandLogo{
-    width: 100%;
-    max-width: 160px;
-}
 h1{
     text-align: center;
     font-size: 48px;
+}
+.navbar-brand img{
+    height: 75px;
+}
+main{
+    min-height: calc(100vh - 181px);
 }
 .servicio{
     display: flex;
@@ -59,13 +33,12 @@ h1{
     width: 20%;
     align-self: end;
 }
-footer ul{
-    display: flex;
-    justify-content: center;
+
+.footer {
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
 }
-footer ul li{
-    width: 4%;
-}
-.socialNetworks{
-    width: 80%;
+.socialMediaLink{
+    width: 35px;
 }
