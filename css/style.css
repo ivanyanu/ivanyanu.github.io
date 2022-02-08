@@ -42,3 +42,6 @@ main{
 .socialMediaLink{
     width: 35px;
 }
+.min-vh-50{
+    min-height: calc(100vh/2);
+}
