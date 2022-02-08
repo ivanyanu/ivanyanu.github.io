@@ -18,11 +18,7 @@ h1{
 main{
     min-height: calc(100vh - 181px);
 }
-.servicio{
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 20px;
-}
+
 .formularioContacto{
     display: flex;
     flex-direction: column;
