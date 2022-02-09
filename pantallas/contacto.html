@@ -42,14 +42,26 @@
         </nav>
     </header>
     <main>
-        <img src="https://via.placeholder.com/2000x650" class="w-100" alt="rushflet banner contacto">
-        <h1>Contactanos</h1>
-        <form class="formularioContacto" target="_blank" action="https://formsubmit.co/ivan.yanu@gmail.com" method="POST">
-            <input type="text" name="name" placeholder="Nombre completo" required>
-            <input type="email" name="email" placeholder="Email" required>
-            <textarea placeholder="Mensaje" name="message" rows="10" required></textarea>
-            <button type="submit">Enviar</button>
-        </form>
+        <div class="container-fluid">
+            <h1>Contactanos</h1>
+            <div class="container">
+                <form target="_blank" action="https://formsubmit.co/ivan.yanu@gmail.com" method="POST">
+                    <div class="row">
+                        <div class="col-sm-6 col-lg-7 my-2">
+                            <input type="text" class="form-control" placeholder="Nombre">
+                        </div>
+                        <div class="col-sm-6 col-lg-5 my-2">
+                            <input type="email" class="form-control" placeholder="Email">
+                        </div>
+                        <div class="form-group my-2">
+                            <textarea name="" id="" rows="6" class="form-control" placeholder="Consulta"></textarea>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-outline-success btn-lg">Enviar</button>
+                </form>
+
+            </div>
+        </div>
     </main>
     <!-- Footer principal -->
     <footer class="footer d-flex justify-content-center bg-dark mt-3">
