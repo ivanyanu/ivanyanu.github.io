@@ -88,6 +88,19 @@ main {
   }
 }
 
+.h-150px {
+  height: 150px;
+}
+
+.h-400px {
+  height: 400px;
+}
+
+img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .min-vh-10 {
   min-height: calc(100vh * 0.10);
 }

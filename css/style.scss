@@ -61,6 +61,15 @@ main{
         }
     }
 }
+.h-150px{
+    height: 150px
+}
+.h-400px{
+    height: 400px
+}
+img{
+    object-fit: cover,
+}
 @function esMultiplo($numero, $multiplicador){
     @return ($numero % $multiplicador == 0);
 }
